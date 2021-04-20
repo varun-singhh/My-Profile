@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(to bottom right, #86cecd 0%, #f4f8fd 100%);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slogan {
+  width: 0;
+  margin: 0 auto;
+  padding: 2px 0 0;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 32px;
+  font-weight: 300;
+  border-right: 2px solid #27ae60;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  -webkit-animation-name: blink-start, typing, blink-end;
+  -moz-animation-name: blink-start, typing, blink-end;
+  animation-name: blink-start, typing, blink-end;
+  -webkit-animation-duration: 1s, 1s, 1s;
+  -moz-animation-duration: 1s, 1s, 1s;
+  animation-duration: 1s, 1s, 1s;
+  -webkit-animation-timing-function: linear, steps(13, end), linear;
+  -moz-animation-timing-function: linear, steps(13, end), linear;
+  animation-timing-function: linear, steps(13, end), linear;
+  -webkit-animation-iteration-count: 1, 1, infinite;
+  -moz-animation-iteration-count: 1, 1, infinite;
+  animation-iteration-count: 1, 1, infinite;
+  -webkit-animation-delay: 0s, 1s, 2s;
+  -moz-animation-delay: 0s, 1s, 2s;
+  animation-delay: 0s, 1s, 2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.slogan span {
+  display: block;
+  width: 260px;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 270px;
+  }
+}
+@-moz-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 270px;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 270px;
+  }
+}
+@-webkit-keyframes blink-start {
+  from,
+  to {
+    border-color: #aeb4b0;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@-moz-keyframes blink-start {
+  from,
+  to {
+    border-color: #b1b4b3;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink-start {
+  from,
+  to {
+    border-color: #a1a1a1;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink-end {
+  from,
+  to {
+    border-color: #a8adaa;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@-moz-keyframes blink-end {
+  from,
+  to {
+    border-color: #a0a7a3;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink-end {
+  from,
+  to {
+    border-color: #8d8b8b;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
