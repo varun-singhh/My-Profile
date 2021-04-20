@@ -119,12 +119,16 @@ const Footer = () => {
                 : 'Sending...'}
             </button>{' '}
           </form>
-          {status.info.error && (
-            <div className="error text-red-500 font-bold">Error: {status.info.msg}</div>
-          )}
-          {!status.info.error && status.info.msg && (
-            <p className="text-cyan-color font-bold">{status.info.msg}</p>
-          )}
+          <div>
+            {status.info.error && (
+              <div className="error text-red-500 font-bold">
+                Error: {status.info.msg}
+              </div>
+            )}
+            {!status.info.error && status.info.msg && (
+              <p className="text-cyan-color font-bold">{status.info.msg}</p>
+            )}
+          </div>
         </div>
 
         <div className="gray flex flex-col w-full items-center rounded-lg p-5 text-gray-300 md:text-black">
@@ -151,6 +155,15 @@ const Footer = () => {
             <AiOutlineCopyrightCircle />
             <p>ALl Rights Reserved 2021, Varun Singh</p>
           </div>
+          <a
+            href="https://github.com/varun-singhh/My-Profile"
+            className="transform transition duration-500 hover:scale-125"
+          >
+            <p className="flex items-center font-bold">
+              <AiFillGithub className="text-xl cursor-pointer m-2" /> Profile
+              Gitub
+            </p>
+          </a>
         </div>
       </div>
     </>
