@@ -1,7 +1,5 @@
 ### Hi there, I'm Varun
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/_varuns?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2F_varuns&screen_name=_varuns)
-
 ## I'm a Learner, Developer, and Creator!!
 
 - 🌱 I’m currently learning Backend with django 🐍
@@ -43,7 +41,7 @@
 
 <!-- BLOG-POST-LIST:START -->
 
-- Time-efficient offloading for machine learning tasks between embedded systems and fog nodes.
+- Diabetic Retinopathy Detection.
 - E- Commerce website with shopping cart hosted on Firebase using react
 - Song playing app similar to spotify using react
 - Messenger app using React
