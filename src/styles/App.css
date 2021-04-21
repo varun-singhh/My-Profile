@@ -1,11 +1,5 @@
 body {
   background: linear-gradient(to bottom right, #86cecd 0%, #f4f8fd 100%);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .slogan {
@@ -122,4 +116,24 @@ body {
   50% {
     border-color: transparent;
   }
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgba(27, 26, 26, 0);
+  background: linear-gradient(to bottom right, #86cecd 0%, #f4f8fd 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #86cecd 0%, #f4f8fd 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: linear-gradient(to bottom right, #86cecd 0%, #f4f8fd 100%);
 }

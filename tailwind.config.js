@@ -9,6 +9,16 @@ module.exports = {
         'cyan-color': '#03C6C7',
         'battle-gray': '#758283',
       },
+      backgroundImage: {
+        farm: "url('/src/styles/static/farm.svg')",
+        chat: "url('/src/styles/static/chat.svg')",
+        music: "url('/src/styles/static/music.svg')",
+        web: "url('/src/styles/static/web.svg')",
+        contact: "url('/src/styles/static/contact.svg')",
+        search: "url('/src/styles/static/search.svg')",
+        npm: "url('/src/styles/static/npm.svg')",
+        me: "url('/src/styles/static/me.jpg')",
+      },
     },
   },
   variants: {

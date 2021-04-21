@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import asset from './Asset.svg';
+import asset from '../styles/static/Asset.svg';
 import {
   AiFillInstagram,
   AiFillGithub,
@@ -82,7 +82,7 @@ const Footer = () => {
       >
         <div className="flex flex-col w-full relative z-10 items-center p-5 ml-4">
           <form onSubmit={handleOnSubmit}>
-            <p className="text-4xl uppercase font-bold text-gray-600 ml-2 dark:text-gray-300">
+            <p className="text-3xl uppercase font-bold text-gray-600 ml-2 dark:text-gray-300">
               Reach Me
             </p>
             <input
@@ -153,7 +153,7 @@ const Footer = () => {
 
           <div className="flex items-center font-bold text-xs md:text-lg">
             <AiOutlineCopyrightCircle />
-            <p>ALl Rights Reserved 2021, Varun Singh</p>
+            <p>All Rights Reserved 2021, Varun Singh</p>
           </div>
           <a
             href="https://github.com/varun-singhh/My-Profile"

@@ -7,16 +7,16 @@ const Resume = () => {
         <div className="flex justify-between flex-col md:flex-row">
           <div>
             {' '}
-            <p className="text-2xl font-bold text-gray-600 md:text-4xl">
+            <p className="text-2xl font-bold text-gray-600 md:text-4xl text-center md:text-left">
               VARUN SINGH
             </p>
-            <div className="flex items-center flex-col md:flex-row">
+            <div className="flex items-center flex-col md:flex-row text-center md:text-left">
               <p className="font-semibold">
                 Jaypee University of Information Technology,{' '}
               </p>
-              <p className="text-xs">&nbsp;(Wakhnaghat, Solan (H.P) INDIA)</p>
+              <p className="text-xs">Wakhnaghat, Solan (H.P) INDIA</p>
             </div>
-            <p className="font-bold mt-2 md:mt-1 text-sm md:text-md">
+            <p className="font-bold mt-2 md:mt-1 text-xs md:text-md text-center md:text-left">
               Email:{' '}
               <a
                 href="mailto:varunsingh00712@gmail.com"
@@ -39,7 +39,7 @@ const Resume = () => {
                 Linkedin
               </a>
             </p>
-            <p className="font-bold mt-2 text-sm md:text-md">
+            <p className="font-bold mt-2 text-xs md:text-md text-center md:text-left">
               Phone:&nbsp;
               <a
                 href="tel:+918707072079"
@@ -51,7 +51,7 @@ const Resume = () => {
           </div>
           <div>
             <button
-              className="py-3 px-6 bg-cyan-color text-white rounded font-bold hover:opacity-60 mt-3 md:mt-0 w-full outline-none"
+              className="py-1 md:py-3 px-6 bg-cyan-color text-white rounded font-bold hover:opacity-60 mt-3 md:mt-0 w-full outline-none"
               onClick={() => {
                 window.print();
               }}
@@ -170,7 +170,7 @@ const Resume = () => {
               <li>
                 This is a cross platform alert popup, with different
                 customizable options like animation, icons, duration, styling,
-                position, onClick and much more, if was made only with
+                position, onClick and much more, it was made only with
                 javascript so that it can be used by an library/framework.
               </li>
             </div>
@@ -178,7 +178,7 @@ const Resume = () => {
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
             <div>
               <p className="text-sm font-semibold mr-2">
-                Finish Factory: Emplye Management and E-commerce
+                Finish Factory: Employee Management and E-commerce
               </p>
             </div>
             <div>
@@ -389,11 +389,11 @@ const Resume = () => {
               <li>College Rank 1, Smart India Hackathon 2020</li>
               <li>4 Star Rating on Codechef.</li>
               <li>Google Hash code 2021 AIR 1.6k</li>
-              <li>Published an NPM Package - Toastifier</li>
+              <li>Published a NPM Package - Toastifier</li>
             </div>
           </div>
           <p className="text-2xl mt-3 mb-3 font-bold text-gray-600 border-b-4 pb-3 border-gray-600">
-            RESARCH PROJECT
+            RESARCH
           </p>
           <div>
             <p className="font-bold ">Diabetic Retinopathy Detection</p>

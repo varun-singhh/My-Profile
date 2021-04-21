@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="flex justify-center h-96 flex-col ">
       <div className="mt-48 flex flex-col items-center">
-        <p className="text-5xl md:text-8xl font-bold text-gray-600 dark:text-gray-300">
+        <p className="text-5xl md:text-8xl font-bold text-gray-600 dark:text-gray-300 select-none">
           Hi I'm Varun
         </p>
         <p className="slogan">
