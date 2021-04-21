@@ -32,7 +32,7 @@ const Projects = () => {
                     <AiOutlineLink className="transform transition duration-500 hover:scale-110 text-2xl ml-1 dark:text-gray-100 text-gray-500 hover:text-cyan-color  cursor-pointer dark:hover:text-gray-300" />
                   </a>
                   <button
-                    className="outline-none ml-3 border px-3 rounded border-gray-400 dark:border-gray-300 dark:text-gray-100 dark:hover:bg-light-gray hover:text-white hover:bg-cyan-color hover:border-0"
+                    className="outline-none ml-3 border px-3 rounded bg-white dark:text-gray-600 dark:hover:bg-light-gray dark:hover:text-white hover:bg-cyan-color hover:border-0"
                     onClick={() => {
                       toastifier('Et Voila, It worked');
                     }}

@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../styles/static/me.jpg';
+
 const About = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const About = () => {
         data-aos-duration="700"
         className="flex justify-center"
       >
-        <div className="dark:bg-dark-gray bg-white h-96 w-4/6 mt-16 md:mt-10 shadow-lg rounded-xl dark:shadow-lg flex flex-col md:flex-row p-5 justify-between">
+        <div className="dark:bg-dark-gray bg-white h-min w-4/6 mt-16 md:mt-10 shadow-lg rounded-xl dark:shadow-lg flex flex-col md:flex-row p-5 justify-between">
           <div
             className="p-10 w-2/6 rounded-3xl hidden md:flex bg-me bg-contain bg-no-repeat"
           ></div>
