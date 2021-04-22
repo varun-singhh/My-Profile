@@ -161,7 +161,7 @@ const Footer = () => {
           >
             <p className="flex items-center font-bold">
               <AiFillGithub className="text-xl cursor-pointer m-2" /> Profile
-              Gitub
+              Github
             </p>
           </a>
         </div>

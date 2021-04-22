@@ -92,6 +92,20 @@ const Resume = () => {
                 E-commerce for startup providing all home finishing work, and
                 Employee management for startup
               </li>
+              <br />
+              <a
+                href="https://finishfactory.in/"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Project - FF1
+              </a>{' '}
+              |&nbsp;
+              <a
+                href="https://contact.finishfactory.in"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Project - FF2
+              </a>
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -124,6 +138,13 @@ const Resume = () => {
                 shapely, wheel, scikit, scipy, and much more. I also learned new
                 software’s like QGIS and ArcGIS.
               </li>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1ocxLoRBAuoW4M0vvDAicUGBY3beDIvyH/view?usp=sharing"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Project Documentation
+              </a>
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -173,6 +194,13 @@ const Resume = () => {
                 position, onClick and much more, it was made only with
                 javascript so that it can be used by an library/framework.
               </li>
+              <br />
+              <a
+                href="https://www.npmjs.com/package/toastifier"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                NPM Package
+              </a> | 250+ weekly downloads
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -209,6 +237,14 @@ const Resume = () => {
                   their progress, request payment, Add/Delete service, upload
                   Invoice and much more
                 </p>
+
+                <br />
+                <a
+                  href="https://finishfactory.in/"
+                  className="text-blue-600 border-b border-blue-600 font-normal ml-5"
+                >
+                  E-commerce
+                </a>
               </li>
             </div>
           </div>
@@ -233,6 +269,14 @@ const Resume = () => {
                 listen, download and share music. this website is fully
                 responsive and it's design is based on neuromorphism theme.
               </li>
+
+              <br />
+              <a
+                href="https://vovoca.vercel.app/"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Vovoca - Stream music
+              </a>
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -286,6 +330,20 @@ const Resume = () => {
                 products online, without any brokerage fees, it was a fullstack
                 django project
               </li>
+              <br />
+              <a
+                href="https://crio-xmeme.netlify.app/"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Chat App
+              </a>{' '}
+              |&nbsp;
+              <a
+                href="https://farms-age.herokuapp.com/home/"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                Farming E-commerce
+              </a>
             </div>
           </div>
         </div>
@@ -393,7 +451,7 @@ const Resume = () => {
             </div>
           </div>
           <p className="text-2xl mt-3 mb-3 font-bold text-gray-600 border-b-4 pb-3 border-gray-600">
-            RESARCH
+            RESEARCH
           </p>
           <div>
             <p className="font-bold ">Diabetic Retinopathy Detection</p>
@@ -405,6 +463,12 @@ const Resume = () => {
               detection we are using CNN and transfer learning methods to get
               best accuracy
             </div>
+            <a
+              href="https://drive.google.com/file/d/1JVhKKZVJWTpOpjihpRhZcwZ_uvLCBo2y/view?usp=sharing"
+              className="text-blue-600 border-b border-blue-600 font-normal"
+            >
+              Code Documentation
+            </a>
           </div>
         </div>
       </div>

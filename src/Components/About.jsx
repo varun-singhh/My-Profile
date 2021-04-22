@@ -25,7 +25,7 @@ const About = () => {
               progress after each line of code. I have keen Interest in building
               products so that it could be used by people out there, I have
               experience working in startups and corporates, Currenlty I'm a
-              fullstack developer, an learning new techs to enhance my skills.
+              fullstack developer, and learning new techs to enhance my skills.
               I'm also an eco-nut and pet lover.
             </p>
           </div>
