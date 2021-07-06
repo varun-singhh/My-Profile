@@ -18,30 +18,37 @@ const Resume = () => {
             </div>
             <p className="font-bold mt-2 md:mt-1 text-xs md:text-md text-center md:text-left">
               Email:{' '}
-              <a
+              <a target="_blank"
                 href="mailto:varunsingh00712@gmail.com"
                 className="text-blue-600 border-b border-blue-600 font-normal"
               >
                 varunsingh00712@gmail.com
               </a>{' '}
               |{' '}
-              <a
+              <a target="_blank"
                 href="https://github.com/varun-singhh"
                 className="text-blue-600 border-b border-blue-600 font-normal ml-1"
               >
                 Github
               </a>{' '}
               |
-              <a
+              <a target="_blank"
                 href="https://www.linkedin.com/in/v-varun/"
                 className="text-blue-600 border-b border-blue-600 font-normal ml-1"
               >
                 Linkedin
+              </a>{' '}
+              |
+              <a target="_blank"
+                href="https://varun-profile.netlify.app/"
+                className="text-blue-600 border-b border-blue-600 font-normal ml-1"
+              >
+                Website
               </a>
             </p>
             <p className="font-bold mt-2 text-xs md:text-md text-center md:text-left">
               Phone:&nbsp;
-              <a
+              <a target="_blank"
                 href="tel:+918707072079"
                 className="text-blue-600 border-b border-blue-600 font-normal"
               >
@@ -77,35 +84,19 @@ const Resume = () => {
             </div>
             <div>
               <div className="flex justify-between mt-2 mb-2">
-                <p className="text-xs mr-2">February 2021 -working currently</p>
-                <p className="text-xs ml-2">Virtual (WFH)</p>
+                <p className="text-xs mr-2">February 2021 - June 2021</p>
+                <p className="text-xs ml-2">WFH</p>
               </div>
             </div>
             <div className="text-sm ">
               <li>
-                Working on frontend using react, we basically provide digital
-                solution to SME's to help them grow with the help of latest
-                technology which could eventually help them to reach more crowd
+                Completed whole Frontend for the for 3 different projects
+                single-handedly and got appreciation for the same.
               </li>
               <li>
-                Currenlty working on SAAS project, while previously worked on
-                E-commerce for startup providing all home finishing work, and
-                Employee management for startup
+                Worked on Frontend of ongoing SAAS products which focuses on
+                enhancing collaboration in the construction industry.
               </li>
-              <br />
-              <a
-                href="https://finishfactory.in/"
-                className="text-blue-600 border-b border-blue-600 font-normal"
-              >
-                Project - FF1
-              </a>{' '}
-              |&nbsp;
-              <a
-                href="https://contact.finishfactory.in"
-                className="text-blue-600 border-b border-blue-600 font-normal"
-              >
-                Project - FF2
-              </a>
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -138,13 +129,6 @@ const Resume = () => {
                 shapely, wheel, scikit, scipy, and much more. I also learned new
                 software’s like QGIS and ArcGIS.
               </li>
-              <br />
-              <a
-                href="https://drive.google.com/file/d/1ocxLoRBAuoW4M0vvDAicUGBY3beDIvyH/view?usp=sharing"
-                className="text-blue-600 border-b border-blue-600 font-normal"
-              >
-                Project Documentation
-              </a>
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
@@ -159,15 +143,14 @@ const Resume = () => {
             <div>
               <div className="flex justify-between mt-2 mb-2">
                 <p className="text-xs mr-2">May 2019- June 2019</p>
-                <p className="text-xs ml-2">IIT-BHU, Varanasi, INDIA</p>
+                <p className="text-xs ml-2">IIT-BHU, Varanasi, India</p>
               </div>
             </div>
             <div className="text-sm ">
               <li>
-                This was my first Training internship in Data Analytics and
-                Machine Learning, here I learned many data science techniques
-                like feature engineering, Data extraction, training model and
-                optimizing them and also worked in 3-4 projects.
+                Learned data science techniques like feature engineering, Data
+                extraction, training model and optimizing them and also created
+                web Application projects for real-time usage of prepared model.
               </li>
             </div>
           </div>
@@ -195,25 +178,26 @@ const Resume = () => {
                 javascript so that it can be used by an library/framework.
               </li>
               <br />
-              <a
+              <a target="_blank"
                 href="https://www.npmjs.com/package/toastifier"
                 className="text-blue-600 border-b border-blue-600 font-normal"
               >
                 NPM Package
-              </a> | 250+ weekly downloads
+              </a>{' '}
+              | 700+ downloads
             </div>
           </div>
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
             <div>
               <p className="text-sm font-semibold mr-2">
-                Finish Factory: Employee Management and E-commerce
+                Employee Management, E-commerce and Rehabilation
               </p>
             </div>
             <div>
               <div className="flex justify-between mt-2 mb-2">
                 <p className="text-xs mr-2 font-bold">July 2020</p>
                 <p className="text-xs ml-2 font-bold">
-                  React, Django Rest Framework, Tailwind CSS, JS{' '}
+                  React, CSS, HTML. TailwindCSS, NodeJS
                 </p>
               </div>
             </div>
@@ -227,23 +211,38 @@ const Resume = () => {
                   Selection, Order Progress, Payment Progress,
                 </p>
               </li>
+              <br />
               <li>
-                <b>E-Commerce </b>
+                <b>Furnishing E-commerce</b>
                 <br />
                 <p className="ml-5">
                   Built frontend to book all home furnishing services provided
                   by finish factory, where one can place Order, make payments,
                   built Admin Panel, where Admin can check all orders, mark
                   their progress, request payment, Add/Delete service, upload
-                  Invoice and much more
+                  Invoice and much more.
                 </p>
-
-                <br />
-                <a
+                <a target="_blank"
                   href="https://finishfactory.in/"
                   className="text-blue-600 border-b border-blue-600 font-normal ml-5"
                 >
                   E-commerce
+                </a>
+              </li>
+              <br />
+              <li>
+                <b>Rehabilitation</b>
+                <br />
+                <p className="ml-5 justify-center">
+                  E-commerce web app for differently abled to help them maximum
+                  physical, and socio/Ecomomic Independence, by providing them
+                  all equipments and technology at their doorsteps.
+                </p>
+                <a target="_blank"
+                  href="https://www.sairehabilitation.com/"
+                  className="text-blue-600 border-b border-blue-600 font-normal ml-5"
+                >
+                  Rehabilitation
                 </a>
               </li>
             </div>
@@ -271,7 +270,7 @@ const Resume = () => {
               </li>
 
               <br />
-              <a
+              <a target="_blank"
                 href="https://vovoca.vercel.app/"
                 className="text-blue-600 border-b border-blue-600 font-normal"
               >
@@ -282,67 +281,46 @@ const Resume = () => {
           <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
             <div>
               <p className="text-sm font-semibold mr-2">
-                Covid Detection using chest X-Ray
-              </p>
-            </div>
-            <div>
-              <div className="flex justify-between mt-2 mb-2">
-                <p className="text-xs mr-2 font-bold">October 2020</p>
-                <p className="text-xs ml-2 font-bold">
-                  Flask, Python, Scikit, Numpy, Pandas{' '}
-                </p>
-              </div>
-            </div>
-            <div className="text-sm ">
-              <li>
-                This was a resarch based project made uusing ML mdels, by
-                training thousands of Images of X-ray to detect Covid,
-                pneumonia. the model is trained over normal X-ray and diseased
-                x-ray, so that it could determine covid +ve patient, accuracy of
-                this model was 72%. the whole project is then deployed on flask
-                web app.
-              </li>
-            </div>
-          </div>
-          <div className="border-dashed border-b pb-4 border-gray-400 mt-4">
-            <div>
-              <p className="text-sm font-semibold mr-2">
-                Meme Chat App and Online Farming E-commerce
+                MERN Photo Drive, Blogs and Online Farming E-commerce
               </p>
             </div>
             <div>
               <div className="flex justify-between mt-2 mb-2">
                 <p className="text-xs mr-2 font-bold">July 2020</p>
                 <p className="text-xs ml-2 font-bold">
-                  React, Python, Django, Django Rest Framework, HTML, CSS, JS{' '}
+                  ReactJS, NodeJS, TailwindCSS, MongoDB, HTML, CSS, JS{' '}
                 </p>
               </div>
             </div>
             <div className="text-sm ">
               <li>
-                Made a web Chat app, where an user can anonymously can chat
-                through others, and can chat through menes, gifs, images etc. it
-                was a small full stack website frontend was made using react,
-                while backend in Django Rest Frame work
+                <b>Photo Drive: </b>
+                Electronic Drive made in order to store photos, having
+                functionality to search by tag, star, Move to trash, Delete,
+                recents, Authentication.
               </li>
               <li>
-                A simple E-commerce website made for farmers to sell their
-                products online, without any brokerage fees, it was a fullstack
-                django project
+                <b>X-Blogs: </b>: Web App to create Blogs, search blogs by title
+                and Delete blogs with preview feature while editing the blogs
+              </li>
+              <li>
+                <b>Farmsage: </b>: A simple E-commerce website made for farmers
+                to sell their products online, without any brokerage fees, it
+                was a fullstack django project
               </li>
               <br />
-              <a
-                href="https://crio-xmeme.netlify.app/"
-                className="text-blue-600 border-b border-blue-600 font-normal"
-              >
-                Chat App
-              </a>{' '}
-              |&nbsp;
-              <a
+              <a target="_blank"
                 href="https://farms-age.herokuapp.com/home/"
                 className="text-blue-600 border-b border-blue-600 font-normal"
               >
                 Farming E-commerce
+              </a>
+              {' | '}
+              <a target="_blank"
+                href="https://github.com/varun-singhh/MERN-Edrive"
+                className="text-blue-600 border-b border-blue-600 font-normal"
+              >
+                E-Drive
               </a>
             </div>
           </div>
@@ -360,8 +338,8 @@ const Resume = () => {
               <p className="text-sm font-semibold">
                 Jaypee University of Information Technology
               </p>
-              <p className="text-sm">9.4 CGPA (up till 5 th Sem)</p>
-              <p className="text-sm">July 2018 – Currently</p>
+              <p className="text-sm">9.5 CGPA (up till 6th Sem)</p>
+              <p className="text-sm">July 2018 – July 2022 (Expected)</p>
             </div>
 
             <div className="mt-4 mb-2">
@@ -387,14 +365,7 @@ const Resume = () => {
               <div>
                 <p className="font-bold">Programming Language:</p>
                 <p className="flex font-bold flex-col">
-                  <p className="flex text-xs items-center mr-2">
-                    Experienced:&nbsp;
-                    <p className="font-normal text-xs">C++, Python</p>
-                  </p>
-                  <p className="flex text-xs items-center">
-                    Familiar:&nbsp;
-                    <p className="font-normal text-xs">Java</p>
-                  </p>
+                  <p className="font-normal text-xs">C++, Python</p>
                 </p>
               </div>
             </li>
@@ -402,23 +373,21 @@ const Resume = () => {
               <div className="flex flex-col">
                 <p className="font-bold">Tools/Frameworks/libraries</p>
                 <p className="text-xs">
-                  JS, React, Node JS, Django, Flask Jupyter, Scipy, Scikitlearn,
-                  Keras, Dash, Plotly, pandas, Numpy
+                  HTML, CSS, JS, React, NodeJS, React Native NPM
                 </p>
               </div>
             </li>
             <li className="flex border-b-2 pb-2">
               <div className="flex flex-col">
                 <p className="font-bold">Database Management</p>
-                <p className="text-xs">MySQL, SQLite, MongoDB</p>
+                <p className="text-xs">NoSQL, MySQL, MongoDB</p>
               </div>
             </li>
             <li className="flex border-b-2 pb-2">
               <div className="flex flex-col">
                 <p className="font-bold">Coding Skills</p>
                 <p className="text-xs">
-                  Data Structure and Algorithm, Problem Solving, Competitive
-                  Coding.
+                  Data Structure and Algorithm, Problem Solving
                 </p>
               </div>
             </li>{' '}
@@ -454,21 +423,15 @@ const Resume = () => {
             RESEARCH
           </p>
           <div>
-            <p className="font-bold ">Diabetic Retinopathy Detection</p>
-            <div className="mt-4 mb-2 text-sm max-w-md">
-              Currently working on Diabetic retinopathy detection, and thermal
-              foot images to classify a diabetic and no diabetic person,
-              currently we are trying to build the algorithm for diabetes
-              detection using thermal foot images while for Diabetic retinopathy
-              detection we are using CNN and transfer learning methods to get
-              best accuracy
+            <p className="font-bold ">
+              Disease Detection in Tomato and Potato Plants
+            </p>
+            <div className="mt-4 mb-2 text-sm max-w-md text-justify">
+              Working on an ongiong research project for detection of disease
+              inf tomato and potato plants, as wntire world is suffering from
+              loss in agricultural feild due to such issue, the model proposed
+              can be used to create a defensive mechanism against such problem.
             </div>
-            <a
-              href="https://drive.google.com/file/d/1JVhKKZVJWTpOpjihpRhZcwZ_uvLCBo2y/view?usp=sharing"
-              className="text-blue-600 border-b border-blue-600 font-normal"
-            >
-              Code Documentation
-            </a>
           </div>
         </div>
       </div>
