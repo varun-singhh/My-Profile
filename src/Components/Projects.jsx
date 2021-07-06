@@ -64,10 +64,7 @@ const Projects = () => {
                 This is an e-commerce website for rehabilitation services for
                 enabling differently abled to attain independence.
                 <div className="flex justify-center mt-3 -mb-2">
-                  <a
-                    href="https://github.com/varun-singhh/Gitify-Fetch"
-                    className=""
-                  >
+                  <a href="https://www.sairehabilitation.com/" className="">
                     <AiOutlineLink className="transform transition duration-500 hover:scale-110 text-2xl ml-1 dark:text-gray-100 text-gray-500 hover:text-cyan-color  cursor-pointer dark:hover:text-gray-300" />
                   </a>
                 </div>
